@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us TechCon 2024</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Information</h2>
+        <a href="mailto:somto20@gmail.com">Email</a>
+        <a href="https://x.com/SomtoMaha" target="_blank">Social Media Link</a>
+        <a href="mailto:email@example.com">Email</a>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!YOUR_LATITUDE_AND_LONGITUDE!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM2DCsDEyJzEwLjUiTiA3NcKwMjUnMzkuMCJF!5e0!3m2!1sen!2sus!4v1625765432109!5m2!1sen!2sus"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="process_registration.php" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <input type="textarea" id="message" name="message" required>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+</body>
+
+</html>
